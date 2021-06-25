@@ -28,7 +28,6 @@ const TitleDiv = styled.div`
   animation: ${rotateFirst} 4.5s linear forwards;
 `;
 const NavItem = styled.h1`
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
     grid-column: 2;    
     ${TitleDiv}:nth-child(2){
       animation-delay: 1.5s;  
