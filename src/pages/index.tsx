@@ -1,17 +1,17 @@
 import React from 'react';
-import NavBar from 'components/navbar/NavBar';
+import styled from 'styled-components';
+import Title from 'components/title/Title';
 
-const mainStyle = {
-  height: '100vh',
-  background: '#252934',
-} as React.CSSProperties;
+const Main = styled.main`
+  height: 100vh;
+  background: #252934;
+  padding: 1rem;
+`;
 
-// markup
 const IndexPage = () => (
-  <main style={mainStyle}>
-    <NavBar />
-    <div>Hello World</div>
-  </main>
+  <Main>
+    <Title />
+  </Main>
 );
 
 export default IndexPage;
